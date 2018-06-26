@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="krogoth"/>
+  <default sync-j="4" revision="sumo"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-#  <remote fetch="https://github.com/Freescale" name="freescale"/>
-  <remote fetch="https://github.com/openembedded" name="oe"/>
-#  <remote fetch="https://github.com/graugans" name="graugans"/>
-#  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+  #<remote fetch="https://git.yoctoproject.org/git" name="meta-intel"/>
+  #<remote fetch="https://github.com/openembedded" name="oe"/>
+  #<remote fetch="https://github.com/meta-qt5" name="qt5"/>
 
-  <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
-#  <project remote="yocto" revision="krogoth" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="sumo" name="poky" path="sources/poky"/>
+  #<project remote="meta-intel" revision="sumo" name="meta-intel" path="sources/meta-intel"/>
+  #<project remote="oe" revision="sumo" name="meta-openembedded" path="sources/meta-openembedded"/>
+  #<project remote="qt5" revision="jansa/sumo" name="meta-qt5" path="sources/meta-qt5"/>
 
-  <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
-  
-
+# examples  
 #  <project remote="graugans" revision="morty" name="fsl-community-bsp-base" path="sources/base">
 #	<linkfile dest="README" src="README"/>
 #	<linkfile dest="setup-environment" src="setup-environment"/>
 #  </project>
-
-#  <project remote="freescale" revision="morty" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-#  <project remote="freescale" revision="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-#  <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
-  
 #  <project remote="graugans" revision="morty" name="meta-udoo" path="sources/meta-udoo"/>
   
-  <project remote="qt5" revision="krogoth" name="meta-qt5" path="sources/meta-qt5"/>
 </manifest>
