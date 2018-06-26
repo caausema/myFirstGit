@@ -12,12 +12,5 @@
   #<project remote="meta-intel" revision="sumo" name="meta-intel" path="sources/meta-intel"/>
   #<project remote="oe" revision="sumo" name="meta-openembedded" path="sources/meta-openembedded"/>
   #<project remote="qt5" revision="jansa/sumo" name="meta-qt5" path="sources/meta-qt5"/>
-
-# examples  
-#  <project remote="graugans" revision="morty" name="fsl-community-bsp-base" path="sources/base">
-#	<linkfile dest="README" src="README"/>
-#	<linkfile dest="setup-environment" src="setup-environment"/>
-#  </project>
-#  <project remote="graugans" revision="morty" name="meta-udoo" path="sources/meta-udoo"/>
   
 </manifest>
