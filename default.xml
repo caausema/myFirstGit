@@ -1,8 +1,7 @@
-<!-- Used in combination with google repo to check out multiple repositories -->
-
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Used in combination with google repo to check out multiple repositories -->
 <manifest>
-
+  
   <default sync-j="4" revision="sumo"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
