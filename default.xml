@@ -2,7 +2,7 @@
 <!-- Used in combination with google repo to check out multiple repositories -->
 <manifest>
   
-  <default sync-j="4" revision="sumo"/>
+  <default sync-j="4" revision="thud"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.yoctoproject.org/git" name="meta-intel"/>
